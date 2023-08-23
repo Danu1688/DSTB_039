@@ -1,4 +1,17 @@
 proxies:
+- name: DwiDriver_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: e8874558-b59f-47b0-ae01-4cd71563ae71
+  udp: true
+  sni: sgdo1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: sgdo1.dstb.cloud
 - name: Danu39_LiveHerza39a
   type: trojan
   server: 104.21.8.121

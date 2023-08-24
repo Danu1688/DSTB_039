@@ -3,15 +3,15 @@ proxies:
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: e8874558-b59f-47b0-ae01-4cd71563ae71
+  password: a9bb2137-a932-4664-b2a3-15c0588327cb
   udp: true
-  sni: sgdo1.dstb.cloud
+  sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: /trojan-ws
     headers:
-      Host: sgdo1.dstb.cloud
+      Host: danu529.foryou-ssh.my.id
 - name: Danu39_LiveHerza39a
   type: trojan
   server: 104.21.8.121

@@ -1,4 +1,17 @@
 proxies:
+- name: DwiDriverISS_LiveDO_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 8c862242-0162-4b81-b673-13fdb47a3498
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: DwiDriver_LiveDO_1
   type: trojan
   server: circles.asia
